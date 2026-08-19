@@ -1,7 +1,7 @@
 {
   "success": true,
   "version": "1.0.0",
-  "updated_at": "2026-08-19T10:02:55.196Z",
+  "updated_at": "2026-08-19T10:03:44.534Z",
   "api": {
     "name": "Google Sheets Ads API",
     "version": "1.0.0",
@@ -36,7 +36,7 @@
           "ad_type": "url",
           "content_type": "content/url",
           "content": "https://chatgptengineer.gumroad.com/l/fvcgt",
-          "title": ""
+          "title": "Wordpress AI Chat Bot Script"
         }
       ]
     },
