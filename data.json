@@ -1,7 +1,7 @@
 {
   "success": true,
   "version": "1.0.0",
-  "updated_at": "2026-08-19T09:27:22.152Z",
+  "updated_at": "2026-08-19T10:01:49.897Z",
   "api": {
     "name": "Google Sheets Ads API",
     "version": "1.0.0",
@@ -30,7 +30,15 @@
         "content",
         "title"
       ],
-      "rows": []
+      "rows": [
+        {
+          "ad_id": 100001,
+          "ad_type": "url",
+          "content_type": "content/url",
+          "content": "https://chatgptengineer.gumroad.com/l/fvcgt",
+          "title": ""
+        }
+      ]
     },
     "api_settings": {
       "columns": [
