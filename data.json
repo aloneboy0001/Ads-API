@@ -1,7 +1,7 @@
 {
   "success": true,
   "version": "1.0.0",
-  "updated_at": "2026-08-19T10:05:13.617Z",
+  "updated_at": "2026-08-19T10:06:53.121Z",
   "api": {
     "name": "Google Sheets Ads API",
     "version": "1.0.0",
@@ -39,6 +39,10 @@
           "title": "Wordpress AI Chat Bot Script"
         }
       ]
+    },
+    "Sheet2": {
+      "columns": [],
+      "rows": []
     },
     "api_settings": {
       "columns": [
