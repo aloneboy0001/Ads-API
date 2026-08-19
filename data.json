@@ -1,1 +1,99 @@
-
+{
+  "success": true,
+  "version": "1.0.0",
+  "updated_at": "2026-08-19T09:24:17.030Z",
+  "api": {
+    "name": "Google Sheets Ads API",
+    "version": "1.0.0",
+    "default_limit": 10,
+    "max_limit": 100,
+    "allow_limit": true,
+    "allow_status_filter": true
+  },
+  "ads": {
+    "total": 0,
+    "active": 0,
+    "paused": 0,
+    "default_limit": 10,
+    "max_limit": 100,
+    "ad_type_counts": {},
+    "all": [],
+    "active_ads": [],
+    "paused_ads": []
+  },
+  "tables": {
+    "Sheet1": {
+      "columns": [
+        "ad_id",
+        "ad_type",
+        "content_type",
+        "content",
+        "title"
+      ],
+      "rows": [
+        {
+          "ad_id": 1,
+          "ad_type": "html",
+          "content_type": "content/html",
+          "content": "<div class=\"tag\"></div>",
+          "title": "sample tag"
+        }
+      ]
+    },
+    "api_settings": {
+      "columns": [
+        "setting",
+        "value"
+      ],
+      "rows": [
+        {
+          "setting": "default_limit",
+          "value": 10
+        },
+        {
+          "setting": "max_limit",
+          "value": 100
+        },
+        {
+          "setting": "allow_limit",
+          "value": true
+        },
+        {
+          "setting": "allow_status_filter",
+          "value": true
+        },
+        {
+          "setting": "allowed_statuses",
+          "value": "[\"active\",\"paused\"]"
+        },
+        {
+          "setting": "api_name",
+          "value": "Google Sheets Ads API"
+        },
+        {
+          "setting": "api_version",
+          "value": "1.0.0"
+        },
+        {
+          "setting": "allowed_ad_types",
+          "value": "[\"html\",\"js\",\"json\",\"xml\",\"image\",\"video\",\"iframe\",\"api\",\"json_file\",\"xml_file\"]"
+        }
+      ]
+    }
+  },
+  "endpoints": {
+    "all": "?action=all",
+    "active": "?action=active",
+    "paused": "?action=paused",
+    "limit": "?action=all&limit=5",
+    "sync": "?action=sync",
+    "database": "?action=database",
+    "github": "?action=github"
+  },
+  "github": {
+    "repository": "aloneboy0001/Ads-API",
+    "branch": "main",
+    "file": "data.json",
+    "raw_url": "https://raw.githubusercontent.com/aloneboy0001/Ads-API/main/data.json"
+  }
+}
